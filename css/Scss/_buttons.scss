@@ -1,10 +1,19 @@
-.button {
-    border-radius: 5px; padding: 15px 30px; 
-    border: 1px solid #000000;
+.button-1,.button-2,.button-3,.button-4 {
+    border-radius: 5px; 
     display: inline-block; 
     font-size:17px; 
     color:#ffffff; 
-    text-decoration: none; 
-    font-family:sans-serif;
-    
+    text-decoration: none;
+}
+.button-4 {
+    padding: 10px 44px;
+}
+.button-3 {
+    padding: 20px 69px;   
+}
+.button-2 {
+    padding: 15px 119px; 
+}
+.button-1 {
+    padding: 15px 270px; 
 }

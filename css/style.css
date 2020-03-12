@@ -32,6 +32,12 @@ table {
   mso-table-rspace: 0pt !important;
 }
 
+table {
+  border-spacing: 0;
+  mso-table-lspace: 0pt !important;
+  mso-table-rspace: 0pt !important;
+}
+
 .adjust {
   margin-bottom: 20px;
 }
@@ -44,6 +50,30 @@ table {
 
 td {
   padding-bottom: 10px;
+}
+
+.button-1, .button-2, .button-3, .button-4 {
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 17px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button-4 {
+  padding: 10px 44px;
+}
+
+.button-3 {
+  padding: 20px 69px;
+}
+
+.button-2 {
+  padding: 15px 119px;
+}
+
+.button-1 {
+  padding: 15px 270px;
 }
 
 @media only screen and (max-width: 479px) {
@@ -75,16 +105,17 @@ td {
   .movel-4 table {
     width: 60px;
   }
-}
-
-.button {
-  border-radius: 5px;
-  padding: 15px 30px;
-  border: 1px solid #000000;
-  display: inline-block;
-  font-size: 17px;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: sans-serif;
+  .button-4 {
+    padding: 10px 9px;
+  }
+  .button-3 {
+    padding: 10px 22px;
+  }
+  .button-2 {
+    padding: 10px 49px;
+  }
+  .button-1 {
+    padding: 10px 139px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

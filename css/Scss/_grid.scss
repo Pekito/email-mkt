@@ -1,0 +1,35 @@
+@media only screen and (max-width: 479px) {
+    .table-container {
+        width: 320px;
+    }
+    .adjust table {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .movel-1 table,
+    .movel-2 table,
+    .movel-3 table,
+    .movel-4 table {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .movel-1 table {
+        width: 100%;
+    }
+
+    .movel-2 table {
+        width: 140px
+    }
+
+    .movel-3 table {
+        width: 86px;
+    }
+
+    .movel-4 table {
+        width: 60px;
+    }
+}

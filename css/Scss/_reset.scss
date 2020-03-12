@@ -1,0 +1,46 @@
+* {
+    line-height: inherit;   
+}
+
+html {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    outline: none;
+    border: none;
+    display: block !important;
+    height: auto;
+}
+
+a[x-apple-data-detectors=true] {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+table {
+    border-spacing: 0;
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+
+.adjust {
+    margin-bottom: 20px;
+}
+.adjust table {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #F00; 
+}
+                            td {
+                                padding-bottom: 10px;
+                            }
